@@ -13,49 +13,49 @@ namespace EmployeeApplication
     {
        
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
             
-          Queue queue = new Queue();
-            queue.Enqueue(1);  //Add the items
-            queue.Enqueue(2);
-            queue.Enqueue(3);
+        //  Queue queue = new Queue();
+        //    queue.Enqueue(1);  //Add the items
+        //    queue.Enqueue(2);
+        //    queue.Enqueue(3);
 
 
 
-            Console.WriteLine(queue.Count);
+        //    Console.WriteLine(queue.Count);
 
-            foreach(var item in queue) 
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach(var item in queue) 
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-            Console.WriteLine("After Deque");
+        //    Console.WriteLine("After Deque");
 
-            queue.Dequeue()
+        //    queue.Dequeue()
 
                 
 
-            Console.WriteLine(queue.Count);
+        //    Console.WriteLine(queue.Count);
 
-            foreach (var item in queue)
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach (var item in queue)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-            queue.Dequeue();
+        //    queue.Dequeue();
 
-            Console.WriteLine("After 2nd Deque");
+        //    Console.WriteLine("After 2nd Deque");
 
-            Console.WriteLine(queue.Count);
+        //    Console.WriteLine(queue.Count);
 
-            foreach (var item in queue)
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach (var item in queue)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
-        }
+        //}
 
 
 
