@@ -10,12 +10,12 @@ namespace ConsoleApp1
      class SortedListExample
     {
 
-        static void Main(string[] args)
-        {
-            SortedListMain sortedListMain = new SortedListMain();
-            sortedListMain.LoadSortedList();
+        //static void Main(string[] args)
+        //{
+        //    SortedListMain sortedListMain = new SortedListMain();
+        //    sortedListMain.LoadSortedList();
 
-        }
+        //}
     }
 
     class SortedListMain 
