@@ -8,13 +8,13 @@ namespace SISTrainingDotNet
 {
      class GenericListFirst
     {
-        static void Main(string[] args)
-        {
-            Company company = new Company();
-            List<CompanyInput> objList = company.LoadCompany();
-            company.DisplayCompany(objList);
+        //static void Main(string[] args)
+        //{
+        //    Company company = new Company();
+        //    List<CompanyInput> objList = company.LoadCompany();
+        //    company.DisplayCompany(objList);
 
-        }
+        //}
     }
 
 
