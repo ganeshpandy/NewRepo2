@@ -81,6 +81,8 @@ namespace SISTrainingDotNet
                     listMain[i].CompanyName = company.CompanyName;
                 }
             }
+
+          
         }
 
         public void Delete(companyInput company)

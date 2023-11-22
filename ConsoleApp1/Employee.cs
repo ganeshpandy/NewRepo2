@@ -1,26 +1,12 @@
-﻿namespace Employee
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SISTrainingDotNet
 {
-    class ContractEmployee
+    internal class Employee
     {
-        string name = "John";
-        string id = "100";
-        string EmailId = "John@gmail.com";
     }
-
-    class PermenantEmployee
-    {
-        string name = "Tharmesh";
-        string id = "101";
-        string EmailId = "Tharmesh@gmail.com";
-    }
-
-    class VendorEmployee
-    {
-        string name = "Kiran";
-        string id = "102";
-        string EmailId = "Kiran@gmail.com";
-
-    }
-
-
 }

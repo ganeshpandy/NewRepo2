@@ -57,15 +57,15 @@ namespace SISTrainingDotNet
         }
     }
 
-    public class Employee<T>
-    {
+    //public class Employee<T>
+    //{
         
-        public void DisplayEmployee(T data)
-        {
+    //    public void DisplayEmployee(T data)
+    //    {
             
-            Console.WriteLine("Data passed: " + data);
-        }
-    }
+    //        Console.WriteLine("Data passed: " + data);
+    //    }
+    //}
 
 
 }
