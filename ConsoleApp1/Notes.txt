@@ -1,1 +1,12 @@
-﻿
+﻿ListCompany	All the values 
+
+
+Create property Class 
+Main Class - CompanyMain
+CRUD operation in Main Class
+Static Main - Object Creation , calling methods 
+
+Create 	1 Plus Company
+Update 	Existing 
+Delete	Delete 
+Read	Complete 

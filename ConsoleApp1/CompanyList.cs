@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using 
 
 namespace SISTrainingDotNet
 {
@@ -10,7 +11,11 @@ namespace SISTrainingDotNet
     {
         static void Main(string[] args)
         {
-            company company = new company();
+            SQLTrainingClass sQLTrainingClass = new SQLTrainingClass();
+
+
+
+             company company = new company();
             company.LoadCompany();
 
             companyInput companyInput = new companyInput();
