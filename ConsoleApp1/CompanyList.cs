@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using 
+
+//using TrainingSQLServer;
 
 namespace SISTrainingDotNet
 {
@@ -11,9 +12,9 @@ namespace SISTrainingDotNet
     {
         static void Main(string[] args)
         {
-            SQLTrainingClass sQLTrainingClass = new SQLTrainingClass();
+            //SQLTrainingClass sQLTrainingClass = new SQLTrainingClass();
 
-
+            //sQLTrainingClass.GetSQLTraining();
 
              company company = new company();
             company.LoadCompany();

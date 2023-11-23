@@ -10,3 +10,18 @@ Create 	1 Plus Company
 Update 	Existing 
 Delete	Delete 
 Read	Complete 
+------------------
+
+23/11/2023
+
+Home Practices : 
+1) Inteface crud - Company , employee , order, movie booking 
+
+2)Create property Class -Generic 		
+Main Class - CompanyMain - Gneric 		Create generic methods and return type 
+CRUD operation in Main Class 		
+Static Main - Object Creation , calling methods 	Common 	
+
+3) Nuget Practice 
+
+-----------------------
