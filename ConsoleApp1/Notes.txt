@@ -24,4 +24,12 @@ Static Main - Object Creation , calling methods 	Common
 
 3) Nuget Practice 
 https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-4/
+
+Interview Preparation : 
+
+Sealed Class 
+Garbage collection
+Boxing and Unboxing 
+Access Modifier 
+Type conversion 
 -----------------------
