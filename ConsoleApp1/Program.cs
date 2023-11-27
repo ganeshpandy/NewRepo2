@@ -11,13 +11,13 @@ namespace EmployeeApplication
     class Test
 
     {
-       
+
 
         //static void Main(string[] args)
         //{
 
-            
-        //  Queue queue = new Queue();
+
+        //    Queue queue = new Queue();
         //    queue.Enqueue(1);  //Add the items
         //    queue.Enqueue(2);
         //    queue.Enqueue(3);
@@ -26,16 +26,17 @@ namespace EmployeeApplication
 
         //    Console.WriteLine(queue.Count);
 
-        //    foreach(var item in queue) 
+        //    foreach (var item in queue)
         //    {
         //        Console.WriteLine(item);
         //    }
 
         //    Console.WriteLine("After Deque");
 
-        //    queue.Dequeue()
+        //    queue.Dequeue();
 
-                
+
+
 
         //    Console.WriteLine(queue.Count);
 
