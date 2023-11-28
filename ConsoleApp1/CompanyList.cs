@@ -10,36 +10,36 @@ namespace SISTrainingDotNet
 {
     class CompanyList
     {
-        static void Main(string[] args)
-        {
-            //SQLTrainingClass sQLTrainingClass = new SQLTrainingClass();
+        //static void Main(string[] args)
+        //{
+        //    //SQLTrainingClass sQLTrainingClass = new SQLTrainingClass();
 
-            //sQLTrainingClass.GetSQLTraining();
+        //    //sQLTrainingClass.GetSQLTraining();
 
-             company company = new company();
-            company.LoadCompany();
+        //     company company = new company();
+        //    company.LoadCompany();
 
-            companyInput companyInput = new companyInput();
-            Console.WriteLine("Enter ID :");
-            companyInput.Id = Console.ReadLine();
+        //    companyInput companyInput = new companyInput();
+        //    Console.WriteLine("Enter ID :");
+        //    companyInput.Id = Console.ReadLine();
 
-            Console.WriteLine("Enter CompanyName :");
-            companyInput.CompanyName = Console.ReadLine();
+        //    Console.WriteLine("Enter CompanyName :");
+        //    companyInput.CompanyName = Console.ReadLine();
 
-            Console.WriteLine("Enter Address :");
-            companyInput.Address = Console.ReadLine();
+        //    Console.WriteLine("Enter Address :");
+        //    companyInput.Address = Console.ReadLine();
 
-            Console.WriteLine("Enter Email :");
-            companyInput.Email = Console.ReadLine();
+        //    Console.WriteLine("Enter Email :");
+        //    companyInput.Email = Console.ReadLine();
 
-        //    company.Create(companyInput);
+        ////    company.Create(companyInput);
 
-            company.Read();
+        //    company.Read();
 
-            company.Update(companyInput);
+        //    company.Update(companyInput);
 
 
-        }
+        //}
     }
 
     public class company

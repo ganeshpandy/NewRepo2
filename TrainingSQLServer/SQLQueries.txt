@@ -1,1 +1,16 @@
-﻿
+﻿1.	CREATE TABLE table_name (  
+2.	    column1 datatype,  
+3.	    column2 datatype,  
+4.	    column3 datatype,  
+5.	   ....  
+6.	);  
+
+CREATE TABLE [dbo].[SISTraining](
+	[Id] [int] ,
+	[TrainingName] [varchar](max) 
+) 
+
+
+SELECT * FROM SISTraining
+
+ 
