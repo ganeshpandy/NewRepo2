@@ -8,11 +8,11 @@ namespace SISTrainingDotNet
 {
     class StaticConstructorExample
     {
-        static void Main(string[] args)
-        {
-            StopWatch sw1 = new StopWatch();
+        //static void Main(string[] args)
+        //{
+        //    StopWatch sw1 = new StopWatch();
            
-        }
+        //}
     }
 
    
