@@ -13,10 +13,10 @@ namespace SISTrainingDotNet.Delegates
         //static void Main(string[] args)
         //{
         //    MyDelegate del = ClassA.MethodA;
-        //    del("Hello World");
+        //    del("Hello World from MethodA");
 
         //    del = ClassB.MethodB;
-        //    del("Hello World");
+        //    del("Hello World from MethodB");
 
         //    del = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
         //    del("Hello World");

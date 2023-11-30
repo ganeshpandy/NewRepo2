@@ -10,20 +10,20 @@ namespace SISTrainingDotNet.Delegates
 
     class ProgramMyDelegateMulticast
     {
-        //static void Main(string[] args)
-        //{
-        //    MyDelegateMulticast del1 = ClassMulticast1.MethodA;
-        //    MyDelegateMulticast del2 = ClassMulticast2.MethodB;
+        static void Main(string[] args)
+        {
+            MyDelegateMulticast del1 = ClassMulticast1.MethodA;
+            MyDelegateMulticast del2 = ClassMulticast2.MethodB;
 
-        //    MyDelegateMulticast del = del1 + del2; // combines del1 + del2
-        //    del("Hello World");
+            MyDelegateMulticast del = del1 + del2; // combines del1 + del2
+            del("Hello World");
 
-        //    MyDelegateMulticast del3 = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
-        //    del += del3; // combines del1 + del2 + del3
-        //    del("Hello World");
+            MyDelegateMulticast del3 = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
+            del += del3; // combines del1 + del2 + del3
+            del("Hello World");
 
-           
-        //}
+
+        }
     }
 
     class ClassMulticast1
