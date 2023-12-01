@@ -33,3 +33,55 @@ Boxing and Unboxing
 Access Modifier 
 Type conversion 
 -----------------------
+
+
+foreach(students)
+{
+	foreach(teachers)
+	{
+	
+	
+	}
+	
+}
+
+
+foreach(teachers)
+{
+	foreach(students)
+	{
+	 // logic  
+	
+	}
+	
+}
+
+//LINQ QUERY  --One way
+
+Var teachers = from tcher in teachers 
+			Where tcher ... condition
+			select 
+			
+
+Var Stud = from stud in students 
+			Where tcherId ... condition
+			select 
+			
+----------------
+
+Home Practice : 01122023
+SQL SERVER :
+Login Table : Create /Insert /Joins
+Registraction : CRUD /Joins
+Order : CRUD /Joins
+MovieTiketBooking : CRUD /Joins
+Training  : CRUD /Joins
+
+LINQ :
+Login Table : Load and LINQ WHERE Select
+Registraction : Load and LINQ WHERE Select
+Order : Load and LINQ WHERE Select
+MovieTiketBooking : Load and LINQ WHERE Select
+Training  : Load and LINQ WHERE Select
+
+------------------------
