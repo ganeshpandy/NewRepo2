@@ -13,4 +13,84 @@ CREATE TABLE [dbo].[SISTraining](
 
 SELECT * FROM SISTraining
 
+----------
+
+Create table Student(Id int,Name varchar(100),Email Varchar(100),
+	TeacherId int constraint techerCons References Teacher(Id)) 
+
+
+Create Table Employee_  
+(  
+	   IId int constraint Cons_Reference References My_Constraint(IId),  
+	   Age int,  
+) 
+select * from Student
+insert into Student values(1,'Dharmesh','Dharmesh@gmail.com',1)
+insert into Student values(2,'Sneka','Sneka@gmail.com',2)
+insert into Student values(3,'Namrata','Namrata@gmail.com',2)
+insert into Student values(3,'Namrata','Namrata@gmail.com',2)
+
+Create table Teacher(Id int,Name varchar(100)) 
+
+select * from Student
+select * from Teacher
+
+
+----------
+
+
+
+Create Table TestOne(Id int,Name varchar(100))
+
+select * from TestOne where Id = 100
+
+Insert into TestOne values (100,'Praveen')
+
+Delete From TestOne
+
+Create Table TestTwo(Id int,Name varchar(100),Primary key(Id) )
+
+
+select * from TestTwo 
+
+Insert into TestTwo values (200,'David')
+
+Insert into TestTwo values (201,'Rahul')
+
+Insert into TestTwo values (202,'Amalie')
+
+-----------
+
+
+01122023
+--------
+
+Inner Join 
+--SELECT column_name(s)
+--FROM table1
+--INNER JOIN table2
+--ON table1.column_name = table2.column_name;
+
+Select * from Student
+Select * from Teacher
+
+SELECT * FROM Student INNER JOIN Teacher
+ON Student.TeacherId = Teacher.Id
+WHERE Student.ID != 1
+
+
+SELECT Student.ID 'StudentID',
+	   Student.Name 'StdudentName',
+	   Teacher.Id 'TeacherId',
+	   Teacher.Name 'TeacherName'
+
+		FROM Student 
+INNER JOIN Teacher
+	ON Student.TeacherId = Teacher.Id
+		WHERE Student.ID != 1
+
+		-------------
+
+
+
  
